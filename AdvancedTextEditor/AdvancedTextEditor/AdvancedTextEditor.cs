@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace AdvancedTextEditor
 {
-    public partial class Form1 : Form
+    public partial class AdvancedTextEditor : Form
     {
-        public Form1()
+        public AdvancedTextEditor()
         {
             InitializeComponent();
+        }
+
+        private void toolStripContainer1_TopToolStripPanel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
